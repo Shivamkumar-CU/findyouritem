@@ -13,7 +13,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://findyouritem-1.onrender.com";
 
 export default function ItemDetail() {
   const { id } = useParams();

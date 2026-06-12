@@ -3,7 +3,7 @@ import axios from "axios";
 import { useAuth } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://findyouritem-1.onrender.com";
 
 export default function Dashboard() {
   const { token, user, logout } = useAuth();

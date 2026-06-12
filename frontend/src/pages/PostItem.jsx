@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import LocationPicker from "../components/LocationPicker";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://findyouritem-1.onrender.com";
 
 export default function PostItem() {
   const { token } = useAuth();

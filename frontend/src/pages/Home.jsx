@@ -3,7 +3,7 @@ import axios from "axios";
 import ItemCard from "../components/ItemCard";
 import ItemMap from "../components/ItemMap";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://findyouritem-1.onrender.com";
 
 export default function Home() {
   const [items, setItems] = useState([]);
